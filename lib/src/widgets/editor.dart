@@ -25,7 +25,7 @@ import 'delegate.dart';
 import 'embeds.dart';
 import 'float_cursor.dart';
 import 'link.dart';
-import 'raw_editor.dart';
+import 'raw_editor/raw_editor.dart';
 import 'text_selection.dart';
 
 /// Base interface for the editor state which defines contract used by

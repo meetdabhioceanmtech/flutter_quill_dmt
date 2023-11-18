@@ -35,8 +35,7 @@ class MediaButton extends StatelessWidget {
     this.autovalidateMode = AutovalidateMode.disabled,
     Key? key,
     this.validationMessage,
-  })  : assert(type == QuillMediaType.image,
-            'Video selection is not supported yet'),
+  })  : assert(type == QuillMediaType.image, 'Video selection is not supported yet'),
         super(key: key);
 
   final QuillController controller;
@@ -78,8 +77,7 @@ class MediaButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final iconColor = iconTheme?.iconUnselectedColor ?? theme.iconTheme.color;
-    final iconFillColor =
-        iconTheme?.iconUnselectedFillColor ?? fillColor ?? theme.canvasColor;
+    final iconFillColor = iconTheme?.iconUnselectedFillColor ?? fillColor ?? theme.canvasColor;
 
     return QuillIconButton(
       icon: Icon(icon, size: iconSize, color: iconColor),
@@ -117,8 +115,7 @@ class MediaButton extends StatelessWidget {
 
   Future<void> _pickImage() async {
     if (!(kIsWeb || isMobile() || isDesktop())) {
-      throw UnsupportedError(
-          'Unsupported target platform: ${defaultTargetPlatform.name}');
+      throw UnsupportedError('Unsupported target platform: ${defaultTargetPlatform.name}');
     }
 
     final mediaFileUrl = await _pickMediaFileUrl();
@@ -126,8 +123,7 @@ class MediaButton extends StatelessWidget {
     if (mediaFileUrl != null) {
       final index = controller.selection.baseOffset;
       final length = controller.selection.extentOffset - index;
-      controller.replaceText(
-          index, length, BlockEmbed.image(mediaFileUrl), null);
+      controller.replaceText(index, length, BlockEmbed.image(mediaFileUrl), null);
     }
   }
 
@@ -156,8 +152,7 @@ class MediaButton extends StatelessWidget {
     if (value != null && value.isNotEmpty) {
       final index = controller.selection.baseOffset;
       final length = controller.selection.extentOffset - index;
-      final data =
-          type.isImage ? BlockEmbed.image(value) : BlockEmbed.video(value);
+      final data = type.isImage ? BlockEmbed.image(value) : BlockEmbed.video(value);
       controller.replaceText(index, length, data, null);
     }
   }
@@ -220,16 +215,12 @@ class _MediaLinkDialogState extends State<MediaLinkDialog> {
     final constraints = widget.dialogTheme?.linkDialogConstraints ??
         () {
           final mediaQuery = MediaQuery.of(context);
-          final maxWidth =
-              kIsWeb ? mediaQuery.size.width / 4 : mediaQuery.size.width - 80;
+          final maxWidth = kIsWeb ? mediaQuery.size.width / 4 : mediaQuery.size.width - 80;
           return BoxConstraints(maxWidth: maxWidth, maxHeight: 80);
         }();
 
     final buttonStyle = widget.buttonSize != null
-        ? Theme.of(context)
-            .elevatedButtonTheme
-            .style
-            ?.copyWith(fixedSize: MaterialStatePropertyAll(widget.buttonSize))
+        ? Theme.of(context).elevatedButtonTheme.style?.copyWith(fixedSize: MaterialStatePropertyAll(widget.buttonSize))
         : widget.dialogTheme?.buttonStyle;
 
     final isWrappable = widget.dialogTheme?.isWrappable ?? false;
@@ -275,8 +266,7 @@ class _MediaLinkDialogState extends State<MediaLinkDialog> {
       child: ConstrainedBox(
         constraints: constraints,
         child: Padding(
-          padding:
-              widget.dialogTheme?.linkDialogPadding ?? const EdgeInsets.all(16),
+          padding: widget.dialogTheme?.linkDialogPadding ?? const EdgeInsets.all(16),
           child: isWrappable
               ? Wrap(
                   alignment: WrapAlignment.center,
@@ -303,8 +293,7 @@ class _MediaLinkDialogState extends State<MediaLinkDialog> {
   void _submitLink() => Navigator.pop(context, _linkController.text);
 
   String? _validateLink(String? value) {
-    if ((value?.isEmpty ?? false) ||
-        !AutoFormatMultipleLinksRule.linkRegExp.hasMatch(value!)) {
+    if ((value?.isEmpty ?? false) || !AutoFormatMultipleLinksRule.linkRegExp.hasMatch(value!)) {
       return widget.validationMessage ?? 'That is not a valid URL';
     }
 
@@ -355,8 +344,7 @@ class MediaSourceSelectorDialog extends StatelessWidget {
       child: ConstrainedBox(
         constraints: constraints,
         child: Padding(
-          padding: dialogTheme?.mediaSelectorDialogPadding ??
-              const EdgeInsets.all(16),
+          padding: dialogTheme?.mediaSelectorDialogPadding ?? const EdgeInsets.all(16),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -364,8 +352,7 @@ class MediaSourceSelectorDialog extends StatelessWidget {
                 child: TextButtonWithIcon(
                   icon: Icons.collections,
                   label: galleryButtonText ?? 'Gallery'.i18n,
-                  onPressed: () =>
-                      Navigator.pop(context, MediaPickSetting.Gallery),
+                  onPressed: () => Navigator.pop(context, MediaPickSetting.Gallery),
                 ),
               ),
               const SizedBox(width: 10),
@@ -373,8 +360,7 @@ class MediaSourceSelectorDialog extends StatelessWidget {
                 child: TextButtonWithIcon(
                   icon: Icons.link,
                   label: linkButtonText ?? 'Link'.i18n,
-                  onPressed: () =>
-                      Navigator.pop(context, MediaPickSetting.Link),
+                  onPressed: () => Navigator.pop(context, MediaPickSetting.Link),
                 ),
               )
             ],
@@ -406,13 +392,10 @@ class TextButtonWithIcon extends StatelessWidget {
     final gap = scale <= 1 ? 8.0 : lerpDouble(8, 4, math.min(scale - 1, 1))!;
     final buttonStyle = TextButtonTheme.of(context).style;
     final shape = buttonStyle?.shape?.resolve({}) ??
-        const RoundedRectangleBorder(
-            borderRadius: BorderRadius.all(Radius.circular(4)));
+        const RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(4)));
     return Material(
       shape: shape,
-      textStyle: textStyle ??
-          theme.textButtonTheme.style?.textStyle?.resolve({}) ??
-          theme.textTheme.labelLarge,
+      textStyle: textStyle ?? theme.textButtonTheme.style?.textStyle?.resolve({}) ?? theme.textTheme.labelLarge,
       elevation: buttonStyle?.elevation?.resolve({}) ?? 0,
       child: InkWell(
         customBorder: shape,

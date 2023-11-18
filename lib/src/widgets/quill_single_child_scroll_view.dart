@@ -47,8 +47,7 @@ class QuillSingleChildScrollView extends StatelessWidget {
   final ViewportBuilder viewportBuilder;
 
   AxisDirection _getDirection(BuildContext context) {
-    return getAxisDirectionFromAxisReverseAndDirectionality(
-        context, Axis.vertical, false);
+    return getAxisDirectionFromAxisReverseAndDirectionality(context, Axis.vertical, false);
   }
 
   @override
@@ -88,8 +87,7 @@ class _SingleChildViewport extends SingleChildRenderObjectWidget {
   }
 
   @override
-  void updateRenderObject(
-      BuildContext context, _RenderSingleChildViewport renderObject) {
+  void updateRenderObject(BuildContext context, _RenderSingleChildViewport renderObject) {
     // Order dependency: The offset setter reads the axis direction.
     renderObject.offset = offset;
   }
@@ -286,8 +284,12 @@ class _RenderSingleChildViewport extends RenderBox
   }
 
   @override
-  RevealedOffset getOffsetToReveal(RenderObject target, double alignment,
-      {Rect? rect}) {
+  RevealedOffset getOffsetToReveal(
+    RenderObject target,
+    double alignment, {
+    Rect? rect,
+    Axis? axis, // Unused, only Axis.vertical supported by this viewport.
+  }) {
     rect ??= target.paintBounds;
     if (target is! RenderBox) {
       return RevealedOffset(offset: offset.pixels, rect: rect);
@@ -305,8 +307,7 @@ class _RenderSingleChildViewport extends RenderBox
     leadingScrollOffset = bounds.top;
     targetMainAxisExtent = bounds.height;
 
-    final targetOffset = leadingScrollOffset -
-        (mainAxisExtent - targetMainAxisExtent) * alignment;
+    final targetOffset = leadingScrollOffset - (mainAxisExtent - targetMainAxisExtent) * alignment;
     final targetRect = bounds.shift(_paintOffsetForPosition(targetOffset));
     return RevealedOffset(offset: targetOffset, rect: targetRect);
   }
