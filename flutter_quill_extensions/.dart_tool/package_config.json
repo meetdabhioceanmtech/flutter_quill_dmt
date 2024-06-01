@@ -74,12 +74,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "equatable",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/equatable-2.0.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "fake_async",
       "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
       "packageUri": "lib/",
@@ -125,7 +119,7 @@
       "name": "flutter",
       "rootUri": "file:///Users/parthvirani/development/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_colorpicker",
@@ -195,7 +189,7 @@
     },
     {
       "name": "flutter_quill",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_quill-7.4.9",
+      "rootUri": "../../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -209,7 +203,7 @@
       "name": "flutter_test",
       "rootUri": "file:///Users/parthvirani/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_web_plugins",
@@ -249,9 +243,15 @@
     },
     {
       "name": "i18n_extension",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/i18n_extension-9.0.2",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/i18n_extension-12.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "i18n_extension_core",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/i18n_extension_core-2.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "image_picker",
@@ -303,9 +303,9 @@
     },
     {
       "name": "intl",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/intl-0.18.1",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/intl-0.19.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "js",
@@ -314,14 +314,32 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "matcher",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/matcher-0.12.16",
+      "name": "leak_tracker",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/leak_tracker-10.0.4",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_flutter_testing",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_testing",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "matcher",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/material_color_utilities-0.8.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -333,13 +351,13 @@
     },
     {
       "name": "math_keyboard",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/math_keyboard-0.2.1",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/git/math_keyboard-8dd6ce1c4668259c590c68cbf8d1711d59cfef1a/math_keyboard",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/meta-1.10.0",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/meta-1.12.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -356,16 +374,10 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "pasteboard",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/pasteboard-0.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "path",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/path-1.8.3",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "path_parsing",
@@ -459,7 +471,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/test_api-0.6.1",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/test_api-0.7.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -590,10 +602,10 @@
       "languageVersion": "3.1"
     },
     {
-      "name": "web",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/web-0.3.0",
+      "name": "vm_service",
+      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/vm_service-14.2.1",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "win32",
@@ -626,7 +638,10 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-11-18T06:47:37.338585Z",
+  "generated": "2024-06-01T03:48:52.075085Z",
   "generator": "pub",
-  "generatorVersion": "3.2.0"
+  "generatorVersion": "3.4.1",
+  "flutterRoot": "file:///Users/parthvirani/development/flutter",
+  "flutterVersion": "3.22.1",
+  "pubCache": "file:///Users/parthvirani/.pub-cache"
 }
