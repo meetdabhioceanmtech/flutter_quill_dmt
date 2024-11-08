@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io' show File, Platform;
-import 'dart:ui';
 
 import 'package:file_picker/file_picker.dart';
 import 'package:filesystem_picker/filesystem_picker.dart';
@@ -49,19 +48,16 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> _loadFromAssets() async {
     try {
-      final result = await rootBundle.loadString(isDesktop()
-          ? 'assets/sample_data_nomedia.json'
-          : 'assets/sample_data.json');
+      final result =
+          await rootBundle.loadString(isDesktop() ? 'assets/sample_data_nomedia.json' : 'assets/sample_data.json');
       final doc = Document.fromJson(jsonDecode(result));
       setState(() {
-        _controller = QuillController(
-            document: doc, selection: const TextSelection.collapsed(offset: 0));
+        _controller = QuillController(document: doc, selection: const TextSelection.collapsed(offset: 0));
       });
     } catch (error) {
       final doc = Document()..insert(0, 'Empty asset');
       setState(() {
-        _controller = QuillController(
-            document: doc, selection: const TextSelection.collapsed(offset: 0));
+        _controller = QuillController(document: doc, selection: const TextSelection.collapsed(offset: 0));
       });
     }
   }
@@ -92,10 +88,8 @@ class _HomePageState extends State<HomePage> {
             onPressed: () => showDialog(
               context: context,
               builder: (context) => AlertDialog(
-                content: Text(_controller!.document.toPlainText([
-                  ...FlutterQuillEmbeds.builders(),
-                  TimeStampEmbedBuilderWidget()
-                ])),
+                content: Text(_controller!.document
+                    .toPlainText([...FlutterQuillEmbeds.builders(), TimeStampEmbedBuilderWidget()])),
               ),
             ),
             icon: const Icon(Icons.text_fields_rounded),
@@ -103,8 +97,7 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       drawer: Container(
-        constraints:
-            BoxConstraints(maxWidth: MediaQuery.of(context).size.width * 0.7),
+        constraints: BoxConstraints(maxWidth: MediaQuery.of(context).size.width * 0.7),
         color: Colors.grey.shade800,
         child: _buildMenuBar(context),
       ),
@@ -211,10 +204,7 @@ class _HomePageState extends State<HomePage> {
           fontFeatures: [FontFeature.superscripts()],
         ),
       ),
-      embedBuilders: [
-        ...FlutterQuillEmbeds.builders(),
-        TimeStampEmbedBuilderWidget()
-      ],
+      embedBuilders: [...FlutterQuillEmbeds.builders(), TimeStampEmbedBuilderWidget()],
     );
     if (kIsWeb) {
       quillEditor = QuillEditor(
@@ -243,10 +233,7 @@ class _HomePageState extends State<HomePage> {
                 null),
             sizeSmall: const TextStyle(fontSize: 9),
           ),
-          embedBuilders: [
-            ...defaultEmbedBuildersWeb,
-            TimeStampEmbedBuilderWidget()
-          ]);
+          embedBuilders: [...defaultEmbedBuildersWeb, TimeStampEmbedBuilderWidget()]);
     }
     var toolbar = QuillToolbar.basic(
       controller: _controller!,
@@ -302,8 +289,7 @@ class _HomePageState extends State<HomePage> {
           kIsWeb
               ? Expanded(
                   child: Container(
-                  padding:
-                      const EdgeInsets.symmetric(vertical: 16, horizontal: 8),
+                  padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 8),
                   child: toolbar,
                 ))
               : Container(child: toolbar)
@@ -329,13 +315,11 @@ class _HomePageState extends State<HomePage> {
   Future<String> _onImagePickCallback(File file) async {
     // Copies the picked file from temporary cache to applications directory
     final appDocDir = await getApplicationDocumentsDirectory();
-    final copiedFile =
-        await file.copy('${appDocDir.path}/${basename(file.path)}');
+    final copiedFile = await file.copy('${appDocDir.path}/${basename(file.path)}');
     return copiedFile.path.toString();
   }
 
-  Future<String?> _webImagePickImpl(
-      OnImagePickCallback onImagePickCallback) async {
+  Future<String?> _webImagePickImpl(OnImagePickCallback onImagePickCallback) async {
     final result = await FilePicker.platform.pickFiles();
     if (result == null) {
       return null;
@@ -354,14 +338,12 @@ class _HomePageState extends State<HomePage> {
   Future<String> _onVideoPickCallback(File file) async {
     // Copies the picked file from temporary cache to applications directory
     final appDocDir = await getApplicationDocumentsDirectory();
-    final copiedFile =
-        await file.copy('${appDocDir.path}/${basename(file.path)}');
+    final copiedFile = await file.copy('${appDocDir.path}/${basename(file.path)}');
     return copiedFile.path.toString();
   }
 
   // ignore: unused_element
-  Future<MediaPickSetting?> _selectMediaPickSetting(BuildContext context) =>
-      showDialog<MediaPickSetting>(
+  Future<MediaPickSetting?> _selectMediaPickSetting(BuildContext context) => showDialog<MediaPickSetting>(
         context: context,
         builder: (ctx) => AlertDialog(
           contentPadding: EdgeInsets.zero,
@@ -384,8 +366,7 @@ class _HomePageState extends State<HomePage> {
       );
 
   // ignore: unused_element
-  Future<MediaPickSetting?> _selectCameraPickSetting(BuildContext context) =>
-      showDialog<MediaPickSetting>(
+  Future<MediaPickSetting?> _selectCameraPickSetting(BuildContext context) => showDialog<MediaPickSetting>(
         context: context,
         builder: (ctx) => AlertDialog(
           contentPadding: EdgeInsets.zero,
@@ -452,8 +433,7 @@ class _HomePageState extends State<HomePage> {
   Future<String> _onImagePaste(Uint8List imageBytes) async {
     // Saves the image to applications directory
     final appDocDir = await getApplicationDocumentsDirectory();
-    final file = await File(
-            '${appDocDir.path}/${basename('${DateTime.now().millisecondsSinceEpoch}.png')}')
+    final file = await File('${appDocDir.path}/${basename('${DateTime.now().millisecondsSinceEpoch}.png')}')
         .writeAsBytes(imageBytes, flush: true);
     return file.path.toString();
   }

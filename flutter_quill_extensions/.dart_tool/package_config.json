@@ -3,187 +3,199 @@
   "packages": [
     {
       "name": "args",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/args-2.4.2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/args-2.4.2",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "async",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/async-2.11.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/async-2.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "boolean_selector",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "characters",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/characters-1.3.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/characters-1.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "charcode",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/charcode-1.3.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/charcode-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "clock",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/clock-1.1.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/clock-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/collection-1.18.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/collection-1.18.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "cross_file",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/cross_file-0.3.3+6",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/cross_file-0.3.3+6",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
+      "name": "crypto",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/crypto-3.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "csslib",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/csslib-1.0.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/csslib-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "device_info_plus",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/device_info_plus-9.1.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/device_info_plus-9.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "device_info_plus_platform_interface",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/device_info_plus_platform_interface-7.0.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/device_info_plus_platform_interface-7.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "diff_match_patch",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/diff_match_patch-0.4.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/diff_match_patch-0.4.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "fake_async",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "ffi",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/ffi-2.1.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/ffi-2.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "file",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/file-7.0.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/file-7.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "file_selector_linux",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.2+1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.2+1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "file_selector_macos",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.3+3",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.3+3",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "file_selector_platform_interface",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/file_selector_platform_interface-2.6.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/file_selector_platform_interface-2.6.1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "file_selector_windows",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
+      "name": "fixnum",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/fixnum-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "flutter",
-      "rootUri": "file:///Users/parthvirani/development/flutter/packages/flutter",
+      "rootUri": "file:///Users/jaydipnasit/development/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "flutter_colorpicker",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_colorpicker-1.0.3",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_colorpicker-1.0.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_inappwebview",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_inappwebview-5.8.0",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "flutter_keyboard_visibility",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility-5.4.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_keyboard_visibility_linux",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_linux-1.0.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_linux-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_keyboard_visibility_macos",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_macos-1.0.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_macos-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_keyboard_visibility_platform_interface",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_platform_interface-2.0.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_platform_interface-2.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_keyboard_visibility_web",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_web-2.0.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_web-2.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_keyboard_visibility_windows",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_windows-1.0.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_keyboard_visibility_windows-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter_localizations",
-      "rootUri": "file:///Users/parthvirani/development/flutter/packages/flutter_localizations",
+      "rootUri": "file:///Users/jaydipnasit/development/flutter/packages/flutter_localizations",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flutter_math_fork",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_math_fork-0.7.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_math_fork-0.7.2",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "flutter_plugin_android_lifecycle",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -195,439 +207,457 @@
     },
     {
       "name": "flutter_svg",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/flutter_svg-2.0.9",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/flutter_svg-2.0.9",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/parthvirani/development/flutter/packages/flutter_test",
+      "rootUri": "file:///Users/jaydipnasit/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///Users/parthvirani/development/flutter/packages/flutter_web_plugins",
+      "rootUri": "file:///Users/jaydipnasit/development/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "gal",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/gal-2.1.3",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/gal-2.1.3",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "holding_gesture",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/holding_gesture-1.2.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/holding_gesture-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "html",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/html-0.15.4",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/html-0.15.4",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "http",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/http-1.1.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/http-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "http_parser",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "i18n_extension",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/i18n_extension-12.0.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/i18n_extension-13.0.2",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "i18n_extension_core",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/i18n_extension_core-2.0.6",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/i18n_extension_core-2.0.6",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "image_picker",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/image_picker-1.0.4",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/image_picker-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_android",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/image_picker_android-0.8.8+2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/image_picker_android-0.8.8+2",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_for_web",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/image_picker_for_web-3.0.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/image_picker_for_web-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_ios",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.8+4",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.8+4",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_linux",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.1+1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.1+1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_macos",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.1+1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.1+1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_platform_interface",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/image_picker_platform_interface-2.9.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/image_picker_platform_interface-2.9.1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "image_picker_windows",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.1+1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.1+1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "intl",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/intl-0.19.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/intl-0.19.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "js",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/js-0.6.7",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/js-0.6.7",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "leak_tracker",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/leak_tracker-10.0.4",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/leak_tracker-10.0.5",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_flutter_testing",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.3",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.5",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_testing",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "matcher",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/material_color_utilities-0.8.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "math_expressions",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/math_expressions-2.4.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/math_expressions-2.6.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.1"
     },
     {
       "name": "math_keyboard",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/git/math_keyboard-8dd6ce1c4668259c590c68cbf8d1711d59cfef1a/math_keyboard",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/git/math_keyboard-5a55263bcaf0161834be89872bb2876a4fb9b58b/math_keyboard",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/meta-1.12.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/meta-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "mime",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/mime-1.0.4",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/mime-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "nested",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/nested-1.0.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/nested-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
+      "name": "pasteboard",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/pasteboard-0.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "path",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/path-1.9.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "path_parsing",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/path_parsing-1.0.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/path_parsing-1.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "pedantic",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/pedantic-1.11.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/pedantic-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "petitparser",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/petitparser-5.4.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/petitparser-6.0.2",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.2"
     },
     {
       "name": "photo_view",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/photo_view-0.14.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/photo_view-0.14.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "platform",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/platform-3.1.3",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/platform-3.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.7",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.7",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "provider",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/provider-6.1.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/provider-6.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "quiver",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/quiver-3.2.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/quiver-3.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/parthvirani/development/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/jaydipnasit/development/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "source_span",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/source_span-1.10.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "sprintf",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/sprintf-7.0.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/sprintf-7.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/stream_channel-2.1.2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/stream_channel-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "string_scanner",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "term_glyph",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/test_api-0.7.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/test_api-0.7.2",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "tuple",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/tuple-2.0.2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/tuple-2.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "universal_html",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/universal_html-2.2.4",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/universal_html-2.2.4",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "universal_io",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/universal_io-2.2.2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/universal_io-2.2.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "url_launcher",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/url_launcher-6.2.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/url_launcher-6.2.1",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "url_launcher_android",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/url_launcher_android-6.2.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/url_launcher_android-6.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "url_launcher_ios",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/url_launcher_ios-6.2.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/url_launcher_ios-6.2.1",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "url_launcher_linux",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/url_launcher_linux-3.1.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/url_launcher_linux-3.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "url_launcher_macos",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/url_launcher_macos-3.1.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/url_launcher_macos-3.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "url_launcher_platform_interface",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/url_launcher_platform_interface-2.2.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/url_launcher_platform_interface-2.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "url_launcher_web",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/url_launcher_web-2.2.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/url_launcher_web-2.2.0",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "url_launcher_windows",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/uuid-4.5.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "vector_graphics",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/vector_graphics-1.1.9+1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/vector_graphics-1.1.9+1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "vector_graphics_codec",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/vector_graphics_codec-1.1.9+1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/vector_graphics_codec-1.1.9+1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "vector_graphics_compiler",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/vector_graphics_compiler-1.1.9+1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/vector_graphics_compiler-1.1.9+1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "vector_math",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "video_player",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/video_player-2.8.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/video_player-2.8.1",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "video_player_android",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/video_player_android-2.4.10",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/video_player_android-2.4.10",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "video_player_avfoundation",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/video_player_avfoundation-2.5.2",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "video_player_platform_interface",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/video_player_platform_interface-6.2.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/video_player_platform_interface-6.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "video_player_web",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/video_player_web-2.1.2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/video_player_web-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/vm_service-14.2.1",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/vm_service-14.2.5",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
+      "name": "web",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/web-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "win32",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/win32-5.1.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/win32-5.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "win32_registry",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/win32_registry-1.1.2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/win32_registry-1.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "xml",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/xml-6.3.0",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/xml-6.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.2"
     },
     {
       "name": "youtube_player_flutter",
-      "rootUri": "file:///Users/parthvirani/.pub-cache/hosted/pub.dev/youtube_player_flutter-8.1.2",
+      "rootUri": "file:///Users/jaydipnasit/.pub-cache/hosted/pub.dev/youtube_player_flutter-8.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -638,10 +668,10 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2024-06-01T03:48:52.075085Z",
+  "generated": "2024-11-08T06:42:55.520927Z",
   "generator": "pub",
-  "generatorVersion": "3.4.1",
-  "flutterRoot": "file:///Users/parthvirani/development/flutter",
-  "flutterVersion": "3.22.1",
-  "pubCache": "file:///Users/parthvirani/.pub-cache"
+  "generatorVersion": "3.5.3",
+  "flutterRoot": "file:///Users/jaydipnasit/development/flutter",
+  "flutterVersion": "3.24.3",
+  "pubCache": "file:///Users/jaydipnasit/.pub-cache"
 }

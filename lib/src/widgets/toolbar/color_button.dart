@@ -1,3 +1,5 @@
+// ignore_for_file: lines_longer_than_80_chars
+
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 
@@ -9,10 +11,8 @@ import '../../utils/color.dart';
 import '../controller.dart';
 import '../toolbar.dart';
 
-/// Controls color styles.
-///
-/// When pressed, this button displays overlay toolbar with
-/// buttons for each color.
+FocusNode _focusNode = FocusNode();
+
 class ColorButton extends StatefulWidget {
   const ColorButton({
     required this.icon,
@@ -23,6 +23,7 @@ class ColorButton extends StatefulWidget {
     this.afterButtonPressed,
     this.tooltip,
     Key? key,
+    this.backgroundColor,
   }) : super(key: key);
 
   final IconData icon;
@@ -32,6 +33,7 @@ class ColorButton extends StatefulWidget {
   final QuillIconTheme? iconTheme;
   final VoidCallback? afterButtonPressed;
   final String? tooltip;
+  final Color? backgroundColor;
 
   @override
   _ColorButtonState createState() => _ColorButtonState();
@@ -47,14 +49,10 @@ class _ColorButtonState extends State<ColorButton> {
 
   void _didChangeEditingValue() {
     setState(() {
-      _isToggledColor =
-          _getIsToggledColor(widget.controller.getSelectionStyle().attributes);
-      _isToggledBackground = _getIsToggledBackground(
-          widget.controller.getSelectionStyle().attributes);
-      _isWhite = _isToggledColor &&
-          _selectionStyle.attributes['color']!.value == '#ffffff';
-      _isWhiteBackground = _isToggledBackground &&
-          _selectionStyle.attributes['background']!.value == '#ffffff';
+      _isToggledColor = _getIsToggledColor(widget.controller.getSelectionStyle().attributes);
+      _isToggledBackground = _getIsToggledBackground(widget.controller.getSelectionStyle().attributes);
+      _isWhite = _isToggledColor && _selectionStyle.attributes['color']!.value == '#ffffff';
+      _isWhiteBackground = _isToggledBackground && _selectionStyle.attributes['background']!.value == '#ffffff';
     });
   }
 
@@ -63,10 +61,8 @@ class _ColorButtonState extends State<ColorButton> {
     super.initState();
     _isToggledColor = _getIsToggledColor(_selectionStyle.attributes);
     _isToggledBackground = _getIsToggledBackground(_selectionStyle.attributes);
-    _isWhite = _isToggledColor &&
-        _selectionStyle.attributes['color']!.value == '#ffffff';
-    _isWhiteBackground = _isToggledBackground &&
-        _selectionStyle.attributes['background']!.value == '#ffffff';
+    _isWhite = _isToggledColor && _selectionStyle.attributes['color']!.value == '#ffffff';
+    _isWhiteBackground = _isToggledBackground && _selectionStyle.attributes['background']!.value == '#ffffff';
     widget.controller.addListener(_didChangeEditingValue);
   }
 
@@ -85,12 +81,9 @@ class _ColorButtonState extends State<ColorButton> {
       oldWidget.controller.removeListener(_didChangeEditingValue);
       widget.controller.addListener(_didChangeEditingValue);
       _isToggledColor = _getIsToggledColor(_selectionStyle.attributes);
-      _isToggledBackground =
-          _getIsToggledBackground(_selectionStyle.attributes);
-      _isWhite = _isToggledColor &&
-          _selectionStyle.attributes['color']!.value == '#ffffff';
-      _isWhiteBackground = _isToggledBackground &&
-          _selectionStyle.attributes['background']!.value == '#ffffff';
+      _isToggledBackground = _getIsToggledBackground(_selectionStyle.attributes);
+      _isWhite = _isToggledColor && _selectionStyle.attributes['color']!.value == '#ffffff';
+      _isWhiteBackground = _isToggledBackground && _selectionStyle.attributes['background']!.value == '#ffffff';
     }
   }
 
@@ -107,27 +100,23 @@ class _ColorButtonState extends State<ColorButton> {
         ? stringToColor(_selectionStyle.attributes['color']!.value)
         : (widget.iconTheme?.iconUnselectedColor ?? theme.iconTheme.color);
 
-    final iconColorBackground =
-        _isToggledBackground && widget.background && !_isWhiteBackground
-            ? stringToColor(_selectionStyle.attributes['background']!.value)
-            : (widget.iconTheme?.iconUnselectedColor ?? theme.iconTheme.color);
+    final iconColorBackground = _isToggledBackground && widget.background && !_isWhiteBackground
+        ? stringToColor(_selectionStyle.attributes['background']!.value)
+        : (widget.iconTheme?.iconUnselectedColor ?? theme.iconTheme.color);
 
     final fillColor = _isToggledColor && !widget.background && _isWhite
         ? stringToColor('#ffffff')
         : (widget.iconTheme?.iconUnselectedFillColor ?? theme.canvasColor);
-    final fillColorBackground =
-        _isToggledBackground && widget.background && _isWhiteBackground
-            ? stringToColor('#ffffff')
-            : (widget.iconTheme?.iconUnselectedFillColor ?? theme.canvasColor);
+    final fillColorBackground = _isToggledBackground && widget.background && _isWhiteBackground
+        ? stringToColor('#ffffff')
+        : (widget.iconTheme?.iconUnselectedFillColor ?? theme.canvasColor);
 
     return QuillIconButton(
       tooltip: widget.tooltip,
       highlightElevation: 0,
       hoverElevation: 0,
       size: widget.iconSize * kIconButtonFactor,
-      icon: Icon(widget.icon,
-          size: widget.iconSize,
-          color: widget.background ? iconColorBackground : iconColor),
+      icon: Icon(widget.icon, size: widget.iconSize, color: widget.background ? iconColorBackground : iconColor),
       fillColor: widget.background ? fillColorBackground : fillColor,
       borderRadius: widget.iconTheme?.borderRadius ?? 2,
       onPressed: _showColorPicker,
@@ -138,8 +127,8 @@ class _ColorButtonState extends State<ColorButton> {
   void _changeColor(BuildContext context, Color color) {
     var hex = colorToHex(color);
     hex = '#$hex';
-    widget.controller.formatSelection(
-        widget.background ? BackgroundAttribute(hex) : ColorAttribute(hex));
+    widget.controller.formatSelection(widget.background ? BackgroundAttribute(hex) : ColorAttribute(hex));
+    FocusScope.of(context).requestFocus(FocusNode());
   }
 
   void _showColorPicker() {
@@ -152,9 +141,7 @@ class _ColorButtonState extends State<ColorButton> {
           ? hexToColor(_selectionStyle.attributes['background']?.value)
           : hexToColor(_selectionStyle.attributes['color']?.value);
     }
-
-    final hexController =
-        TextEditingController(text: colorToHex(selectedColor));
+    final hexController = TextEditingController(text: colorToHex(selectedColor));
     late void Function(void Function()) colorBoxSetState;
 
     showDialog<String>(
@@ -169,7 +156,7 @@ class _ColorButtonState extends State<ColorButton> {
                   },
                   child: Text('OK'.i18n)),
             ],
-            backgroundColor: Theme.of(context).canvasColor,
+            backgroundColor: widget.backgroundColor ?? Theme.of(context).canvasColor,
             content: SingleChildScrollView(
               child: Column(
                 mainAxisSize: MainAxisSize.min,
@@ -201,7 +188,7 @@ class _ColorButtonState extends State<ColorButton> {
                           Navigator.of(context).pop();
                         },
                       ),
-                    if (pickerType == 'color')
+                    if (pickerType == 'color') ...[
                       ColorPicker(
                         pickerColor: selectedColor,
                         onColorChanged: (color) {
@@ -210,7 +197,8 @@ class _ColorButtonState extends State<ColorButton> {
                           selectedColor = color;
                           colorBoxSetState(() {});
                         },
-                      ),
+                      )
+                    ],
                     const SizedBox(
                       height: 10,
                     ),
@@ -221,11 +209,12 @@ class _ColorButtonState extends State<ColorButton> {
                           height: 60,
                           child: TextFormField(
                             controller: hexController,
+                            focusNode: _focusNode,
                             onChanged: (value) {
                               selectedColor = hexToColor(value);
                               _changeColor(context, selectedColor);
-
                               colorBoxSetState(() {});
+                              FocusScope.of(context).unfocus();
                             },
                             decoration: InputDecoration(
                               labelText: 'Hex'.i18n,

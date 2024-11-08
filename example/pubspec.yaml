@@ -35,6 +35,8 @@ dependencies:
     path: ../
   flutter_quill_extensions:
     path: ../flutter_quill_extensions
+  typed_data: ^1.4.0
+  win32: ^5.8.0
 
 dependency_overrides:
   flutter_quill:

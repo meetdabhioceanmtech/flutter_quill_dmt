@@ -1,0 +1,461 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:5:4-35:19
+MERGED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-46:19
+MERGED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-46:19
+MERGED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:url_launcher_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/628d31c66b80d6ee9a3c99fb409dcd21/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/628d31c66b80d6ee9a3c99fb409dcd21/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/c154b86a964f1768d58490930e957d71/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/c154b86a964f1768d58490930e957d71/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/429831fd80b3288e68697c24df61cb52/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/429831fd80b3288e68697c24df61cb52/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from [:device_info_plus] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-48:12
+MERGED from [:flutter_keyboard_visibility] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_keyboard_visibility/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:gal] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/gal/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:video_player_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/video_player_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/jaydipnasit/.gradle/caches/transforms-3/40f010ac4d0a0d54da072902a78bee9a/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51e97129a26bc35f12871ead8520eb3e/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/jaydipnasit/.gradle/caches/transforms-3/8543aeef31e944bdf6f83dca5547bd3e/transformed/webkit-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/jaydipnasit/.gradle/caches/transforms-3/92ac1e15e8c0eb6a0acfac035c317148/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.5.0] /Users/jaydipnasit/.gradle/caches/transforms-3/6f022912f4e63d6e7fe8ba444e1d6df1/transformed/browser-1.5.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/9c9092a2e1ad396ffdc78512dc1d6d49/transformed/jetified-exoplayer-hls-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/daee22c6bcab410d5bce37125ef98bb5/transformed/jetified-exoplayer-dash-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/4a5913b822047096db7d437682aecda9/transformed/jetified-exoplayer-smoothstreaming-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/957df0c2cfc93e8a52eec19f312d50d6/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1dfaf8150cc3a15ece32a0b86059cffc/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/70918020ee0d6eda3d9cddef4d61b337/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/bc0da2432177c2daabea18164c947deb/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/jaydipnasit/.gradle/caches/transforms-3/345ab567e803df646b294d9e07d7805e/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/jaydipnasit/.gradle/caches/transforms-3/fc518b6716fe2c919ca8f81a5901b85d/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/949fedc87dd9e73208b1a44e0a0cd658/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1ccb066400a8d73d72f5396ff46eb938/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/be75879212b60750382bff91cab4b3ac/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/fea40e7230930de9bd12725fd55237d3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/96a8a28313bc6c10e89df3906ef4a1d6/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/628d31c66b80d6ee9a3c99fb409dcd21/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/25cc0a9d56a94702ac04a8a4d251e215/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/99fc9484b5cbfb7d3d8fc889e9e29cca/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/33742133ff7650ae10c6444ee979d204/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jaydipnasit/.gradle/caches/transforms-3/c9eccc9220a6ee3c2447f8e72ddaeb05/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1132eab163996dc35b4ad4a2f57222fc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/9a304b2fe434fd7b0a94b131833e06c6/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/3284273efdb33177824d7c69f11778d2/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/jaydipnasit/.gradle/caches/transforms-3/a3135b985b6a652c1cd20a2b827217b7/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/e605fbeea30c3dbb26a74482b53ba8eb/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/jaydipnasit/.gradle/caches/transforms-3/94c06dd75edcaba2ff3dc76d9ab5db28/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/c154b86a964f1768d58490930e957d71/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/ad13829d4dccd8c9198f31ccd8e77536/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/b899c4dbfd88f6e843e6db212b11fd2c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/2fba17cdb75e2172d17bd252e3ff78b2/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/429831fd80b3288e68697c24df61cb52/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/6595d4c1e8df5f3e659ddea1b7549f89/transformed/jetified-exoplayer-datasource-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/ece5edf49beef582f149507333b85430/transformed/jetified-exoplayer-extractor-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/d179dacffecaa6fe8138d89dc6c9b60e/transformed/jetified-exoplayer-decoder-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/46dfff921db52bf6cdde32a8474dcf10/transformed/jetified-exoplayer-database-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/0b64fb20334b41b445c1ff04c298ab1d/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/0aae8930c7846832d63f4b45f1f0fc50/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/47a975be8dad21f1293b4aeb79022db6/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/jaydipnasit/.gradle/caches/transforms-3/ec1427fa54d79722c31072bdc0b87fd2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:2:5-30
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:4:5-80
+MERGED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:4:5-80
+MERGED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml:4:22-78
+uses-sdk
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml
+MERGED from [:device_info_plus] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:device_info_plus] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/device_info_plus/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_keyboard_visibility/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_keyboard_visibility/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:gal] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/gal/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:gal] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/gal/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/video_player_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:video_player_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/video_player_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/jaydipnasit/.gradle/caches/transforms-3/40f010ac4d0a0d54da072902a78bee9a/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/jaydipnasit/.gradle/caches/transforms-3/40f010ac4d0a0d54da072902a78bee9a/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51e97129a26bc35f12871ead8520eb3e/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51e97129a26bc35f12871ead8520eb3e/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/jaydipnasit/.gradle/caches/transforms-3/8543aeef31e944bdf6f83dca5547bd3e/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.5.0] /Users/jaydipnasit/.gradle/caches/transforms-3/8543aeef31e944bdf6f83dca5547bd3e/transformed/webkit-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/jaydipnasit/.gradle/caches/transforms-3/92ac1e15e8c0eb6a0acfac035c317148/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/jaydipnasit/.gradle/caches/transforms-3/92ac1e15e8c0eb6a0acfac035c317148/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.5.0] /Users/jaydipnasit/.gradle/caches/transforms-3/6f022912f4e63d6e7fe8ba444e1d6df1/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] /Users/jaydipnasit/.gradle/caches/transforms-3/6f022912f4e63d6e7fe8ba444e1d6df1/transformed/browser-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/9c9092a2e1ad396ffdc78512dc1d6d49/transformed/jetified-exoplayer-hls-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/9c9092a2e1ad396ffdc78512dc1d6d49/transformed/jetified-exoplayer-hls-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/daee22c6bcab410d5bce37125ef98bb5/transformed/jetified-exoplayer-dash-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/daee22c6bcab410d5bce37125ef98bb5/transformed/jetified-exoplayer-dash-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/4a5913b822047096db7d437682aecda9/transformed/jetified-exoplayer-smoothstreaming-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/4a5913b822047096db7d437682aecda9/transformed/jetified-exoplayer-smoothstreaming-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/957df0c2cfc93e8a52eec19f312d50d6/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/957df0c2cfc93e8a52eec19f312d50d6/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1dfaf8150cc3a15ece32a0b86059cffc/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1dfaf8150cc3a15ece32a0b86059cffc/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/70918020ee0d6eda3d9cddef4d61b337/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/70918020ee0d6eda3d9cddef4d61b337/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/bc0da2432177c2daabea18164c947deb/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/bc0da2432177c2daabea18164c947deb/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/jaydipnasit/.gradle/caches/transforms-3/345ab567e803df646b294d9e07d7805e/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/jaydipnasit/.gradle/caches/transforms-3/345ab567e803df646b294d9e07d7805e/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/jaydipnasit/.gradle/caches/transforms-3/fc518b6716fe2c919ca8f81a5901b85d/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/jaydipnasit/.gradle/caches/transforms-3/fc518b6716fe2c919ca8f81a5901b85d/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/949fedc87dd9e73208b1a44e0a0cd658/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/949fedc87dd9e73208b1a44e0a0cd658/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1ccb066400a8d73d72f5396ff46eb938/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1ccb066400a8d73d72f5396ff46eb938/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/be75879212b60750382bff91cab4b3ac/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/be75879212b60750382bff91cab4b3ac/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/fea40e7230930de9bd12725fd55237d3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/fea40e7230930de9bd12725fd55237d3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/96a8a28313bc6c10e89df3906ef4a1d6/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/96a8a28313bc6c10e89df3906ef4a1d6/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/628d31c66b80d6ee9a3c99fb409dcd21/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/628d31c66b80d6ee9a3c99fb409dcd21/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/25cc0a9d56a94702ac04a8a4d251e215/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/25cc0a9d56a94702ac04a8a4d251e215/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/99fc9484b5cbfb7d3d8fc889e9e29cca/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/99fc9484b5cbfb7d3d8fc889e9e29cca/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/33742133ff7650ae10c6444ee979d204/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/33742133ff7650ae10c6444ee979d204/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jaydipnasit/.gradle/caches/transforms-3/c9eccc9220a6ee3c2447f8e72ddaeb05/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jaydipnasit/.gradle/caches/transforms-3/c9eccc9220a6ee3c2447f8e72ddaeb05/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1132eab163996dc35b4ad4a2f57222fc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1132eab163996dc35b4ad4a2f57222fc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/9a304b2fe434fd7b0a94b131833e06c6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/9a304b2fe434fd7b0a94b131833e06c6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/3284273efdb33177824d7c69f11778d2/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/3284273efdb33177824d7c69f11778d2/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/jaydipnasit/.gradle/caches/transforms-3/a3135b985b6a652c1cd20a2b827217b7/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/jaydipnasit/.gradle/caches/transforms-3/a3135b985b6a652c1cd20a2b827217b7/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/e605fbeea30c3dbb26a74482b53ba8eb/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/e605fbeea30c3dbb26a74482b53ba8eb/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/jaydipnasit/.gradle/caches/transforms-3/94c06dd75edcaba2ff3dc76d9ab5db28/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/jaydipnasit/.gradle/caches/transforms-3/94c06dd75edcaba2ff3dc76d9ab5db28/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/c154b86a964f1768d58490930e957d71/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/c154b86a964f1768d58490930e957d71/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/ad13829d4dccd8c9198f31ccd8e77536/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/ad13829d4dccd8c9198f31ccd8e77536/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/b899c4dbfd88f6e843e6db212b11fd2c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/b899c4dbfd88f6e843e6db212b11fd2c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/2fba17cdb75e2172d17bd252e3ff78b2/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/2fba17cdb75e2172d17bd252e3ff78b2/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/429831fd80b3288e68697c24df61cb52/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/429831fd80b3288e68697c24df61cb52/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/6595d4c1e8df5f3e659ddea1b7549f89/transformed/jetified-exoplayer-datasource-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/6595d4c1e8df5f3e659ddea1b7549f89/transformed/jetified-exoplayer-datasource-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/ece5edf49beef582f149507333b85430/transformed/jetified-exoplayer-extractor-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/ece5edf49beef582f149507333b85430/transformed/jetified-exoplayer-extractor-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/d179dacffecaa6fe8138d89dc6c9b60e/transformed/jetified-exoplayer-decoder-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/d179dacffecaa6fe8138d89dc6c9b60e/transformed/jetified-exoplayer-decoder-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/46dfff921db52bf6cdde32a8474dcf10/transformed/jetified-exoplayer-database-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/46dfff921db52bf6cdde32a8474dcf10/transformed/jetified-exoplayer-database-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/0b64fb20334b41b445c1ff04c298ab1d/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/0b64fb20334b41b445c1ff04c298ab1d/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/0aae8930c7846832d63f4b45f1f0fc50/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/0aae8930c7846832d63f4b45f1f0fc50/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/47a975be8dad21f1293b4aeb79022db6/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/jaydipnasit/.gradle/caches/transforms-3/47a975be8dad21f1293b4aeb79022db6/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/jaydipnasit/.gradle/caches/transforms-3/ec1427fa54d79722c31072bdc0b87fd2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/jaydipnasit/.gradle/caches/transforms-3/ec1427fa54d79722c31072bdc0b87fd2/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Project Data/flutter_projects/flutter_quill/example/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-77
+queries
+ADDED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:15
+MERGED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
+MERGED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-72
+	android:name
+		ADDED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-69
+data
+ADDED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-44
+	android:mimeType
+		ADDED from [:file_picker] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:19-41
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-90
+	android:name
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-87
+activity#com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity
+ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:47
+	android:exported
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+	android:configChanges
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-137
+	android:theme
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-44
+	android:name
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-104
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-22:55
+	android:exported
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-112
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity
+ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-26:55
+	android:exported
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-106
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance
+ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-31:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-126
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance
+ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-36:55
+	android:launchMode
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-48
+	android:exported
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-37
+	android:theme
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-120
+receiver#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-41:40
+	android:enabled
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-35
+	android:exported
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-111
+meta-data#io.flutter.embedded_views_preview
+ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-45:36
+	android:value
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-33
+	android:name
+		ADDED from [:flutter_inappwebview] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/flutter_inappwebview/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-61
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
+	android:resource
+		ADDED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
+	android:name
+		ADDED from [:image_picker_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Volumes/Project Data/flutter_projects/flutter_quill/example/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/957df0c2cfc93e8a52eec19f312d50d6/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/0b64fb20334b41b445c1ff04c298ab1d/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/0b64fb20334b41b445c1ff04c298ab1d/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/jaydipnasit/.gradle/caches/transforms-3/957df0c2cfc93e8a52eec19f312d50d6/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:22-76
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/7d911f60109330d7a5d49cbf95bd5d79/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/628d31c66b80d6ee9a3c99fb409dcd21/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/628d31c66b80d6ee9a3c99fb409dcd21/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/c154b86a964f1768d58490930e957d71/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/jaydipnasit/.gradle/caches/transforms-3/c154b86a964f1768d58490930e957d71/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/jaydipnasit/.gradle/caches/transforms-3/1fd91ceae8e6b8a918661b9564ac8da3/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/628d31c66b80d6ee9a3c99fb409dcd21/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/628d31c66b80d6ee9a3c99fb409dcd21/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/jaydipnasit/.gradle/caches/transforms-3/628d31c66b80d6ee9a3c99fb409dcd21/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/jaydipnasit/.gradle/caches/transforms-3/51f86d10c91fc0b78030e545eef1c630/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/jaydipnasit/.gradle/caches/transforms-3/6f105ff88202feb5f79ee2aa7c0e1ebc/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
