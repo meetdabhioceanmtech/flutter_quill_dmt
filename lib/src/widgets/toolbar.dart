@@ -388,6 +388,7 @@ class QuillToolbar extends StatelessWidget implements PreferredSizeWidget {
             controller: controller,
             background: true,
             iconTheme: iconTheme,
+            backgroundColor: backgroundColor,
             afterButtonPressed: afterButtonPressed,
           ),
         if (showClearFormat)
