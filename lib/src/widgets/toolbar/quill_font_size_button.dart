@@ -30,6 +30,7 @@ class QuillFontSizeButton extends StatefulWidget {
     this.itemHeight,
     this.itemPadding,
     this.defaultItemColor = Colors.red,
+    this.offset,
     Key? key,
   })  : assert(rawItemsMap.length > 0),
         assert(initialValue == null || initialValue.length > 0),
@@ -56,6 +57,7 @@ class QuillFontSizeButton extends StatefulWidget {
   final double? itemHeight;
   final EdgeInsets? itemPadding;
   final Color? defaultItemColor;
+  final Offset? offset;
 
   @override
   _QuillFontSizeButtonState createState() => _QuillFontSizeButtonState();
@@ -118,9 +120,7 @@ class _QuillFontSizeButtonState extends State<QuillFontSizeButton> {
         message: widget.tooltip,
         child: RawMaterialButton(
           visualDensity: VisualDensity.compact,
-          shape: RoundedRectangleBorder(
-              borderRadius:
-                  BorderRadius.circular(widget.iconTheme?.borderRadius ?? 2)),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(widget.iconTheme?.borderRadius ?? 2)),
           fillColor: widget.fillColor,
           elevation: 0,
           hoverElevation: widget.hoverElevation,
@@ -141,18 +141,17 @@ class _QuillFontSizeButtonState extends State<QuillFontSizeButton> {
     final overlay = Overlay.of(context).context.findRenderObject() as RenderBox;
     final position = RelativeRect.fromRect(
       Rect.fromPoints(
-        button.localToGlobal(Offset.zero, ancestor: overlay),
-        button.localToGlobal(button.size.bottomLeft(Offset.zero),
-            ancestor: overlay),
+        button.localToGlobal(widget.offset ?? Offset.zero, ancestor: overlay),
+        button.localToGlobal(button.size.bottomLeft(widget.offset ?? Offset.zero), ancestor: overlay),
       ),
       Offset.zero & overlay.size,
     );
+
     showMenu<String>(
       context: context,
       elevation: 4,
       items: [
-        for (final MapEntry<String, String> fontSize
-            in widget.rawItemsMap.entries)
+        for (final MapEntry<String, String> fontSize in widget.rawItemsMap.entries)
           PopupMenuItem<String>(
             key: ValueKey(fontSize.key),
             value: fontSize.value,
@@ -178,8 +177,8 @@ class _QuillFontSizeButtonState extends State<QuillFontSizeButton> {
       setState(() {
         _currentValue = keyName ?? _defaultDisplayText;
         if (keyName != null) {
-          widget.controller.formatSelection(Attribute.fromKeyValue(
-              'size', newValue == '0' ? null : getFontSize(newValue)));
+          widget.controller
+              .formatSelection(Attribute.fromKeyValue('size', newValue == '0' ? null : getFontSize(newValue)));
           widget.onSelected?.call(newValue);
         }
       });
@@ -203,14 +202,11 @@ class _QuillFontSizeButtonState extends State<QuillFontSizeButton> {
                 style: widget.style ??
                     TextStyle(
                         fontSize: widget.iconSize / 1.15,
-                        color: widget.iconTheme?.iconUnselectedColor ??
-                            theme.iconTheme.color)),
+                        color: widget.iconTheme?.iconUnselectedColor ?? theme.iconTheme.color)),
           ),
           const SizedBox(width: 3),
           Icon(Icons.arrow_drop_down,
-              size: widget.iconSize / 1.15,
-              color: widget.iconTheme?.iconUnselectedColor ??
-                  theme.iconTheme.color)
+              size: widget.iconSize / 1.15, color: widget.iconTheme?.iconUnselectedColor ?? theme.iconTheme.color)
         ],
       ),
     );

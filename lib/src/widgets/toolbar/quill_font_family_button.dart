@@ -31,6 +31,7 @@ class QuillFontFamilyButton extends StatefulWidget {
     this.itemHeight,
     this.itemPadding,
     this.defaultItemColor = Colors.red,
+    this.offset,
     Key? key,
   })  : assert(rawItemsMap.length > 0),
         assert(initialValue == null || initialValue.length > 0),
@@ -59,6 +60,7 @@ class QuillFontFamilyButton extends StatefulWidget {
   final double? itemHeight;
   final EdgeInsets? itemPadding;
   final Color? defaultItemColor;
+  final Offset? offset;
 
   @override
   _QuillFontFamilyButtonState createState() => _QuillFontFamilyButtonState();
@@ -119,22 +121,18 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
         width: widget.width,
       ),
       child: UtilityWidgets.maybeWidget(
-        enabled: (widget.tooltip ?? '').isNotEmpty ||
-            widget.overrideTooltipByFontFamily,
+        enabled: (widget.tooltip ?? '').isNotEmpty || widget.overrideTooltipByFontFamily,
         wrapper: (child) {
           var effectiveTooltip = widget.tooltip ?? '';
           if (widget.overrideTooltipByFontFamily) {
-            effectiveTooltip = effectiveTooltip.isNotEmpty
-                ? '$effectiveTooltip: $_currentValue'
-                : '${'Font'.i18n}: $_currentValue';
+            effectiveTooltip =
+                effectiveTooltip.isNotEmpty ? '$effectiveTooltip: $_currentValue' : '${'Font'.i18n}: $_currentValue';
           }
           return Tooltip(message: effectiveTooltip, child: child);
         },
         child: RawMaterialButton(
           visualDensity: VisualDensity.compact,
-          shape: RoundedRectangleBorder(
-              borderRadius:
-                  BorderRadius.circular(widget.iconTheme?.borderRadius ?? 2)),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(widget.iconTheme?.borderRadius ?? 2)),
           fillColor: widget.fillColor,
           elevation: 0,
           hoverElevation: widget.hoverElevation,
@@ -155,9 +153,8 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
     final overlay = Overlay.of(context).context.findRenderObject() as RenderBox;
     final position = RelativeRect.fromRect(
       Rect.fromPoints(
-        button.localToGlobal(Offset.zero, ancestor: overlay),
-        button.localToGlobal(button.size.bottomLeft(Offset.zero),
-            ancestor: overlay),
+        button.localToGlobal(widget.offset ?? Offset.zero, ancestor: overlay),
+        button.localToGlobal(button.size.bottomLeft(widget.offset ?? Offset.zero), ancestor: overlay),
       ),
       Offset.zero & overlay.size,
     );
@@ -165,8 +162,7 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
       context: context,
       elevation: 4,
       items: [
-        for (final MapEntry<String, String> fontFamily
-            in widget.rawItemsMap.entries)
+        for (final MapEntry<String, String> fontFamily in widget.rawItemsMap.entries)
           PopupMenuItem<String>(
             key: ValueKey(fontFamily.key),
             value: fontFamily.value,
@@ -176,9 +172,7 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
               fontFamily.key.toString(),
               style: TextStyle(
                 fontFamily: widget.renderFontFamilies ? fontFamily.value : null,
-                color: fontFamily.value == 'Clear'
-                    ? widget.defaultItemColor
-                    : null,
+                color: fontFamily.value == 'Clear' ? widget.defaultItemColor : null,
               ),
             ),
           ),
@@ -195,8 +189,7 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
       setState(() {
         _currentValue = keyName ?? _defaultDisplayText;
         if (keyName != null) {
-          widget.controller.formatSelection(Attribute.fromKeyValue(
-              'font', newValue == 'Clear' ? null : newValue));
+          widget.controller.formatSelection(Attribute.fromKeyValue('font', newValue == 'Clear' ? null : newValue));
           widget.onSelected?.call(newValue);
         }
       });
@@ -222,15 +215,12 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
               style: widget.style ??
                   TextStyle(
                       fontSize: widget.iconSize / 1.15,
-                      color: widget.iconTheme?.iconUnselectedColor ??
-                          theme.iconTheme.color),
+                      color: widget.iconTheme?.iconUnselectedColor ?? theme.iconTheme.color),
             ),
           ),
           const SizedBox(width: 3),
           Icon(Icons.arrow_drop_down,
-              size: widget.iconSize / 1.15,
-              color: widget.iconTheme?.iconUnselectedColor ??
-                  theme.iconTheme.color)
+              size: widget.iconSize / 1.15, color: widget.iconTheme?.iconUnselectedColor ?? theme.iconTheme.color)
         ],
       ),
     );
