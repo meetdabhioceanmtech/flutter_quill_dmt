@@ -30,7 +30,8 @@ class QuillFontSizeButton extends StatefulWidget {
     this.itemHeight,
     this.itemPadding,
     this.defaultItemColor = Colors.red,
-    this.offset,
+    this.hpeding,
+    this.vpeding,
     Key? key,
   })  : assert(rawItemsMap.length > 0),
         assert(initialValue == null || initialValue.length > 0),
@@ -57,7 +58,8 @@ class QuillFontSizeButton extends StatefulWidget {
   final double? itemHeight;
   final EdgeInsets? itemPadding;
   final Color? defaultItemColor;
-  final Offset? offset;
+  final Offset? hpeding;
+  final Offset? vpeding;
 
   @override
   _QuillFontSizeButtonState createState() => _QuillFontSizeButtonState();
@@ -141,8 +143,9 @@ class _QuillFontSizeButtonState extends State<QuillFontSizeButton> {
     final overlay = Overlay.of(context).context.findRenderObject() as RenderBox;
     final position = RelativeRect.fromRect(
       Rect.fromPoints(
-        button.localToGlobal(widget.offset ?? Offset.zero, ancestor: overlay),
-        button.localToGlobal(button.size.bottomLeft(widget.offset ?? Offset.zero), ancestor: overlay),
+        button.localToGlobal(widget.hpeding ?? Offset.zero, ancestor: overlay),
+        button.localToGlobal(button.size.bottomLeft(widget.vpeding ?? widget.hpeding ?? Offset.zero),
+            ancestor: overlay),
       ),
       Offset.zero & overlay.size,
     );
