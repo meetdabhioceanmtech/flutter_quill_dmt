@@ -7,8 +7,11 @@ import '../../translations/toolbar.i18n.dart';
 import '../../utils/widgets.dart';
 import '../controller.dart';
 
+bool _isMenuOpen = false;
+
+// ignore: must_be_immutable
 class QuillFontFamilyButton extends StatefulWidget {
-  const QuillFontFamilyButton({
+  QuillFontFamilyButton({
     required this.rawItemsMap,
     required this.attribute,
     required this.controller,
@@ -33,6 +36,11 @@ class QuillFontFamilyButton extends StatefulWidget {
     this.defaultItemColor = Colors.red,
     this.hpeding,
     this.vpeding,
+    this.shape,
+    this.shadowColor,
+    this.lablepadding,
+    this.arrowSize,
+    this.arrowColor,
     Key? key,
   })  : assert(rawItemsMap.length > 0),
         assert(initialValue == null || initialValue.length > 0),
@@ -63,6 +71,11 @@ class QuillFontFamilyButton extends StatefulWidget {
   final Color? defaultItemColor;
   final Offset? hpeding;
   final Offset? vpeding;
+  ShapeBorder? shape;
+  Color? shadowColor;
+  EdgeInsetsGeometry? lablepadding;
+  double? arrowSize;
+  Color? arrowColor;
 
   @override
   _QuillFontFamilyButtonState createState() => _QuillFontFamilyButtonState();
@@ -150,6 +163,9 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
   }
 
   void _showMenu() {
+    if (_isMenuOpen) return;
+    setState(() => _isMenuOpen = true);
+
     final popupMenuTheme = PopupMenuTheme.of(context);
     final button = context.findRenderObject() as RenderBox;
     final overlay = Overlay.of(context).context.findRenderObject() as RenderBox;
@@ -171,20 +187,39 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
             value: fontFamily.value,
             height: widget.itemHeight ?? kMinInteractiveDimension,
             padding: widget.itemPadding,
-            child: Text(
-              fontFamily.key.toString(),
-              style: TextStyle(
-                fontFamily: widget.renderFontFamilies ? fontFamily.value : null,
-                color: fontFamily.value == 'Clear' ? widget.defaultItemColor : null,
-              ),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  fontFamily.key.toString(),
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    fontFamily: widget.renderFontFamilies ? fontFamily.value : null,
+                    color: fontFamily.value == 'Clear'
+                        ? widget.defaultItemColor
+                        : _currentValue != fontFamily.key
+                            ? Colors.black
+                            : null,
+                  ),
+                ),
+                const Spacer(),
+                _currentValue == fontFamily.key
+                    ? Icon(Icons.done, color: widget.iconTheme?.iconSelectedColor)
+                    : const SizedBox.shrink()
+              ],
             ),
           ),
       ],
       position: position,
-      shape: popupMenuTheme.shape,
+      shadowColor: widget.shadowColor,
+      shape: widget.shape ?? popupMenuTheme.shape,
       color: popupMenuTheme.color,
     ).then((newValue) {
       if (!mounted) return;
+      setState(() {
+        _isMenuOpen = false;
+      });
+
       if (newValue == null) {
         return;
       }
@@ -203,7 +238,7 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
     final theme = Theme.of(context);
     final hasFinalWidth = widget.width != null;
     return Padding(
-      padding: widget.padding ?? const EdgeInsets.fromLTRB(10, 0, 0, 0),
+      padding: widget.lablepadding ?? widget.padding ?? const EdgeInsets.fromLTRB(10, 0, 0, 0),
       child: Row(
         mainAxisSize: !hasFinalWidth ? MainAxisSize.min : MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -221,9 +256,12 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
                       color: widget.iconTheme?.iconUnselectedColor ?? theme.iconTheme.color),
             ),
           ),
-          const SizedBox(width: 3),
-          Icon(Icons.arrow_drop_down,
-              size: widget.iconSize / 1.15, color: widget.iconTheme?.iconUnselectedColor ?? theme.iconTheme.color)
+          const Spacer(),
+          Icon(
+            !_isMenuOpen ? Icons.keyboard_arrow_down_outlined : Icons.keyboard_arrow_up_outlined,
+            size: widget.arrowSize ?? widget.iconSize / 1.15,
+            color: widget.arrowColor ?? widget.iconTheme?.iconUnselectedColor ?? theme.iconTheme.color,
+          )
         ],
       ),
     );
