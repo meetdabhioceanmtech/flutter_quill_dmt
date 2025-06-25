@@ -226,7 +226,7 @@ class _ColorButtonState extends State<ColorButton> {
                     ),
                   ),
                   // Hex input + preview
-                  const Align(
+                  Align(
                     alignment: Alignment.topLeft,
                     child: Text(
                       " Hex",
