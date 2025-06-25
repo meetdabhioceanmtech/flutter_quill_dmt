@@ -230,7 +230,7 @@ class _ColorButtonState extends State<ColorButton> {
                     alignment: Alignment.topLeft,
                     child: Text(
                       " Hex",
-                      style: TextStyle(color: Colors.black, fontSize: 18),
+                      style: TextStyle(color: widget.borderColor ?? Colors.black, fontSize: 18),
                       textAlign: TextAlign.left,
                     ),
                   ),
@@ -245,7 +245,7 @@ class _ColorButtonState extends State<ColorButton> {
                             decoration: InputDecoration(
                               // labelText: 'Hex',
                               prefixText: '#',
-                              prefixStyle: const TextStyle(color: Colors.black),
+                              prefixStyle: TextStyle(color: widget.borderColor ?? Colors.black),
                               border: const OutlineInputBorder(),
                               enabledBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
@@ -280,9 +280,7 @@ class _ColorButtonState extends State<ColorButton> {
                           width: 45,
                           height: 45,
                           decoration: BoxDecoration(
-                            border: Border.all(
-                              color: Colors.black45,
-                            ),
+                            border: Border.all(color: widget.borderColor ?? Colors.black45),
                             color: selectedColor,
                             borderRadius: BorderRadius.circular(5),
                           ),
