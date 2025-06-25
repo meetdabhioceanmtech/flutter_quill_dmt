@@ -161,6 +161,11 @@ class QuillToolbar extends StatelessWidget implements PreferredSizeWidget {
     /// Validate the legitimacy of hyperlinks
     RegExp? linkRegExp,
     LinkDialogAction? linkDialogAction,
+    final Color? borderColor,
+    final Color? applyButtonColor,
+    final Color? cancelTextColor,
+    final TextStyle? applyButtonstyle,
+    final TextStyle? cancelButtonstyle,
     Key? key,
   }) {
     final isButtonGroupShown = [
@@ -379,6 +384,11 @@ class QuillToolbar extends StatelessWidget implements PreferredSizeWidget {
             iconTheme: iconTheme,
             backgroundColor: backgroundColor,
             afterButtonPressed: afterButtonPressed,
+            borderColor: borderColor,
+            applyButtonColor: applyButtonColor,
+            applyButtonstyle: applyButtonstyle,
+            cancelButtonstyle: cancelButtonstyle,
+            cancelTextColor: cancelTextColor,
           ),
         if (showBackgroundColorButton)
           ColorButton(
@@ -390,6 +400,10 @@ class QuillToolbar extends StatelessWidget implements PreferredSizeWidget {
             iconTheme: iconTheme,
             backgroundColor: backgroundColor,
             afterButtonPressed: afterButtonPressed,
+            applyButtonColor: applyButtonColor,
+            applyButtonstyle: applyButtonstyle,
+            cancelButtonstyle: cancelButtonstyle,
+            cancelTextColor: cancelTextColor,
           ),
         if (showClearFormat)
           ClearFormatButton(
