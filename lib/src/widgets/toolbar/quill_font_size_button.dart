@@ -105,6 +105,40 @@ class _QuillFontSizeButtonState extends State<QuillFontSizeButton> {
     }
   }
 
+  // // void _didChangeEditingValue() {
+  // //   final attribute = _selectionStyle.attributes[widget.attribute.key];
+  // //   if (attribute == null) {
+  // //     if (_currentValue != _defaultDisplayText) {
+  // //       return;
+  // //     }
+  // //     setState(() => _currentValue = _defaultDisplayText);
+  // //     return;
+  // //   }
+  // // }
+  // void _didChangeEditingValue() {
+  //   final fontAttr = _selectionStyle.attributes['font'];
+  //   final sizeAttr = _selectionStyle.attributes['size'];
+
+  //   print("📝 font attribute: $fontAttr, value: ${fontAttr?.value}");
+  //   print("📝 size attribute: $sizeAttr, value: ${sizeAttr?.value}");
+
+  //   if (fontAttr == null || fontAttr.value == null) {
+  //     setState(() => _currentValue = _defaultDisplayText);
+  //   } else {
+  //     final keyName = _getKeyName(fontAttr.value);
+  //     print("📝 resolved font keyName: $keyName");
+  //     setState(() => _currentValue = keyName ?? _defaultDisplayText);
+  //   }
+
+  //   if (sizeAttr == null || sizeAttr.value == null) {
+  //     setState(() => _currentValue = _defaultDisplayText);
+  //   } else {
+  //     final keyName = _getKeyName(sizeAttr.value);
+  //     print("📝 resolved size keyName: $keyName");
+  //     setState(() => _currentValue = keyName ?? _defaultDisplayText);
+  //   }
+  // }
+
   void _didChangeEditingValue() {
     final attribute = _selectionStyle.attributes[widget.attribute.key];
     if (attribute == null) {
@@ -183,7 +217,11 @@ class _QuillFontSizeButtonState extends State<QuillFontSizeButton> {
                 Text(
                   fontSize.key.toString(),
                   style: TextStyle(
-                    color: fontSize.value == '0' ? widget.defaultItemColor : null,
+                    color: fontSize.value == '0'
+                        ? widget.defaultItemColor
+                        : _currentValue != fontSize.key
+                            ? Colors.black
+                            : null,
                   ),
                 ),
                 const Spacer(),

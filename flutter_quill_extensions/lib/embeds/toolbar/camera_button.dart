@@ -50,8 +50,7 @@ class CameraButton extends StatelessWidget {
     final theme = Theme.of(context);
 
     final iconColor = iconTheme?.iconUnselectedColor ?? theme.iconTheme.color;
-    final iconFillColor =
-        iconTheme?.iconUnselectedFillColor ?? (fillColor ?? theme.canvasColor);
+    final iconFillColor = iconTheme?.iconUnselectedFillColor ?? (fillColor ?? theme.canvasColor);
 
     return QuillIconButton(
       icon: Icon(icon, size: iconSize, color: iconColor),
@@ -61,6 +60,8 @@ class CameraButton extends StatelessWidget {
       size: iconSize * 1.77,
       fillColor: iconFillColor,
       borderRadius: iconTheme?.borderRadius ?? 2,
+      imagesColor: iconColor,
+      images: "",
       onPressed: () => _handleCameraButtonTap(context, controller,
           onImagePickCallback: onImagePickCallback,
           onVideoPickCallback: onVideoPickCallback,
@@ -69,8 +70,7 @@ class CameraButton extends StatelessWidget {
     );
   }
 
-  Future<void> _handleCameraButtonTap(
-      BuildContext context, QuillController controller,
+  Future<void> _handleCameraButtonTap(BuildContext context, QuillController controller,
       {OnImagePickCallback? onImagePickCallback,
       OnVideoPickCallback? onVideoPickCallback,
       FilePickImpl? filePickImpl,
@@ -91,8 +91,7 @@ class CameraButton extends StatelessWidget {
                           color: Colors.orangeAccent,
                         ),
                         label: Text('Camera'.i18n),
-                        onPressed: () =>
-                            Navigator.pop(ctx, MediaPickSetting.Camera),
+                        onPressed: () => Navigator.pop(ctx, MediaPickSetting.Camera),
                       ),
                       TextButton.icon(
                         icon: const Icon(
@@ -100,8 +99,7 @@ class CameraButton extends StatelessWidget {
                           color: Colors.cyanAccent,
                         ),
                         label: Text('Video'.i18n),
-                        onPressed: () =>
-                            Navigator.pop(ctx, MediaPickSetting.Video),
+                        onPressed: () => Navigator.pop(ctx, MediaPickSetting.Video),
                       )
                     ],
                   ),
@@ -112,13 +110,11 @@ class CameraButton extends StatelessWidget {
       if (source != null) {
         switch (source) {
           case MediaPickSetting.Camera:
-            await ImageVideoUtils.handleImageButtonTap(
-                context, controller, ImageSource.camera, onImagePickCallback,
+            await ImageVideoUtils.handleImageButtonTap(context, controller, ImageSource.camera, onImagePickCallback,
                 filePickImpl: filePickImpl, webImagePickImpl: webImagePickImpl);
             break;
           case MediaPickSetting.Video:
-            await ImageVideoUtils.handleVideoButtonTap(
-                context, controller, ImageSource.camera, onVideoPickCallback,
+            await ImageVideoUtils.handleVideoButtonTap(context, controller, ImageSource.camera, onVideoPickCallback,
                 filePickImpl: filePickImpl, webVideoPickImpl: webVideoPickImpl);
             break;
           default:

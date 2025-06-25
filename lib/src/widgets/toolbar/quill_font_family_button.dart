@@ -109,6 +109,23 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
     }
   }
 
+  // void _didChangeEditingValue() {
+  //   final attribute = _selectionStyle.attributes[widget.attribute.key];
+  //   final selection = widget.controller.selection;
+
+  //   if (attribute == null) {
+  //     if (selection.isCollapsed) {
+  //       return;
+  //     } else {
+  //       setState(() => _currentValue = _defaultDisplayText);
+  //       return;
+  //     }
+  //   }
+
+  //   final keyName = _getKeyName(attribute.value);
+  //   setState(() => _currentValue = keyName ?? _defaultDisplayText);
+  // }
+
   void _didChangeEditingValue() {
     final attribute = _selectionStyle.attributes[widget.attribute.key];
     if (attribute == null) {
