@@ -40,6 +40,7 @@ class QuillFontSizeButton extends StatefulWidget {
     this.lablepadding,
     this.arrowSize,
     this.arrowColor,
+    this.textColor,
     Key? key,
   })  : assert(rawItemsMap.length > 0),
         assert(initialValue == null || initialValue.length > 0),
@@ -73,6 +74,7 @@ class QuillFontSizeButton extends StatefulWidget {
   EdgeInsetsGeometry? lablepadding;
   double? arrowSize;
   Color? arrowColor;
+  Color? textColor;
 
   @override
   _QuillFontSizeButtonState createState() => _QuillFontSizeButtonState();
@@ -220,7 +222,7 @@ class _QuillFontSizeButtonState extends State<QuillFontSizeButton> {
                     color: fontSize.value == '0'
                         ? widget.defaultItemColor
                         : _currentValue != fontSize.key
-                            ? Colors.black
+                            ? widget.textColor
                             : null,
                   ),
                 ),

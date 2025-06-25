@@ -41,6 +41,7 @@ class QuillFontFamilyButton extends StatefulWidget {
     this.lablepadding,
     this.arrowSize,
     this.arrowColor,
+    this.textColor,
     Key? key,
   })  : assert(rawItemsMap.length > 0),
         assert(initialValue == null || initialValue.length > 0),
@@ -76,6 +77,7 @@ class QuillFontFamilyButton extends StatefulWidget {
   EdgeInsetsGeometry? lablepadding;
   double? arrowSize;
   Color? arrowColor;
+  Color? textColor;
 
   @override
   _QuillFontFamilyButtonState createState() => _QuillFontFamilyButtonState();
@@ -215,7 +217,7 @@ class _QuillFontFamilyButtonState extends State<QuillFontFamilyButton> {
                     color: fontFamily.value == 'Clear'
                         ? widget.defaultItemColor
                         : _currentValue != fontFamily.key
-                            ? Colors.black
+                            ? widget.textColor
                             : null,
                   ),
                 ),
