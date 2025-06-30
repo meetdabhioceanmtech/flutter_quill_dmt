@@ -41,11 +41,9 @@ enum LinkMenuAction {
 /// Used internally by widget layer.
 typedef LinkActionPicker = Future<LinkMenuAction> Function(Node linkNode);
 
-typedef LinkActionPickerDelegate = Future<LinkMenuAction> Function(
-    BuildContext context, String link, Node node);
+typedef LinkActionPickerDelegate = Future<LinkMenuAction> Function(BuildContext context, String link, Node node);
 
-Future<LinkMenuAction> defaultLinkActionPickerDelegate(
-    BuildContext context, String link, Node node) async {
+Future<LinkMenuAction> defaultLinkActionPickerDelegate(BuildContext context, String link, Node node) async {
   switch (defaultTargetPlatform) {
     case TargetPlatform.iOS:
       return _showCupertinoLinkMenu(context, link);
@@ -87,8 +85,7 @@ TextRange getLinkRange(Node node) {
   return TextRange(start: start, end: start + length);
 }
 
-Future<LinkMenuAction> _showCupertinoLinkMenu(
-    BuildContext context, String link) async {
+Future<LinkMenuAction> _showCupertinoLinkMenu(BuildContext context, String link) async {
   final result = await showCupertinoModalPopup<LinkMenuAction>(
     context: context,
     builder: (ctx) {
@@ -142,13 +139,13 @@ class _CupertinoAction extends StatelessWidget {
               child: Text(
                 title,
                 textAlign: TextAlign.start,
-                style: TextStyle(color: theme.colorScheme.onSurface),
+                style: TextStyle(color: theme.iconTheme.color),
               ),
             ),
             Icon(
               icon,
               size: theme.iconTheme.size,
-              color: theme.colorScheme.onSurface.withOpacity(0.75),
+              color: theme.iconTheme.color,
             )
           ],
         ),
@@ -157,8 +154,7 @@ class _CupertinoAction extends StatelessWidget {
   }
 }
 
-Future<LinkMenuAction> _showMaterialMenu(
-    BuildContext context, String link) async {
+Future<LinkMenuAction> _showMaterialMenu(BuildContext context, String link) async {
   final result = await showModalBottomSheet<LinkMenuAction>(
     context: context,
     builder: (ctx) {
@@ -207,7 +203,7 @@ class _MaterialAction extends StatelessWidget {
       leading: Icon(
         icon,
         size: theme.iconTheme.size,
-        color: theme.colorScheme.onSurface.withOpacity(0.75),
+        color: theme.iconTheme.color,
       ),
       title: Text(title),
       onTap: onPressed,
