@@ -107,48 +107,24 @@ class _QuillFontSizeButtonState extends State<QuillFontSizeButton> {
     }
   }
 
-  // // void _didChangeEditingValue() {
-  // //   final attribute = _selectionStyle.attributes[widget.attribute.key];
-  // //   if (attribute == null) {
-  // //     if (_currentValue != _defaultDisplayText) {
-  // //       return;
-  // //     }
-  // //     setState(() => _currentValue = _defaultDisplayText);
-  // //     return;
-  // //   }
-  // // }
   // void _didChangeEditingValue() {
-  //   final fontAttr = _selectionStyle.attributes['font'];
-  //   final sizeAttr = _selectionStyle.attributes['size'];
-
-  //   print("📝 font attribute: $fontAttr, value: ${fontAttr?.value}");
-  //   print("📝 size attribute: $sizeAttr, value: ${sizeAttr?.value}");
-
-  //   if (fontAttr == null || fontAttr.value == null) {
+  //   final attribute = _selectionStyle.attributes[widget.attribute.key];
+  //   if (attribute == null) {
+  //     if (_currentValue != _defaultDisplayText) {
+  //       return;
+  //     }
   //     setState(() => _currentValue = _defaultDisplayText);
-  //   } else {
-  //     final keyName = _getKeyName(fontAttr.value);
-  //     print("📝 resolved font keyName: $keyName");
-  //     setState(() => _currentValue = keyName ?? _defaultDisplayText);
-  //   }
-
-  //   if (sizeAttr == null || sizeAttr.value == null) {
-  //     setState(() => _currentValue = _defaultDisplayText);
-  //   } else {
-  //     final keyName = _getKeyName(sizeAttr.value);
-  //     print("📝 resolved size keyName: $keyName");
-  //     setState(() => _currentValue = keyName ?? _defaultDisplayText);
+  //     return;
   //   }
   // }
-
   void _didChangeEditingValue() {
-    final attribute = _selectionStyle.attributes[widget.attribute.key];
-    if (attribute == null) {
+    final sizeAttr = _selectionStyle.attributes['size'];
+    if (sizeAttr == null || sizeAttr.value == null) {
       setState(() => _currentValue = _defaultDisplayText);
-      return;
+    } else {
+      final keyName = _getKeyName(sizeAttr.value);
+      setState(() => _currentValue = keyName ?? _defaultDisplayText);
     }
-    final keyName = _getKeyName(attribute.value);
-    setState(() => _currentValue = keyName ?? _defaultDisplayText);
   }
 
   String? _getKeyName(dynamic value) {
