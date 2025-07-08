@@ -555,6 +555,12 @@ class QuillToolbar extends StatelessWidget implements PreferredSizeWidget {
             afterButtonPressed: afterButtonPressed,
             linkRegExp: linkRegExp,
             linkDialogAction: linkDialogAction,
+            backgroundColor: backgroundColor,
+            borderColor: borderColor,
+            applyButtonColor: applyButtonColor,
+            applyButtonstyle: applyButtonstyle,
+            cancelButtonstyle: cancelButtonstyle,
+            cancelTextColor: cancelTextColor,
           ),
         if (showSearchButton)
           SearchButton(
